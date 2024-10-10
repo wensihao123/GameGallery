@@ -12,6 +12,7 @@ body {
   font-size: 62px;
   color: white;
   height: 80px;
+  margin-bottom: 20px;
 }
 
 .gallery {
@@ -61,8 +62,5 @@ body {
   .game-card {
     width: 100%;
     max-width: 300px;
-  }
-  .App-header {
-    display: none;
   }
 }

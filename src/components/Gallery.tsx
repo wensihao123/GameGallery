@@ -19,13 +19,21 @@ function Gallery() {
   ];
 
   return (
-      <div className="gallery">
-        <div className="game-list">
-          {games.map((game, index) => (
-            <GameCard key={index} title={game.title} imageSrc={game.cover} gameUrl={game.url}/>
-          ))}
-        </div>
+    <div className="gallery">
+      <header className="App-header">
+        <h1 className="gallery-title">小游戏集合</h1>
+      </header>
+      <div className="game-list">
+        {games.map((game, index) => (
+          <GameCard
+            key={index}
+            title={game.title}
+            imageSrc={game.cover}
+            gameUrl={game.url}
+          />
+        ))}
       </div>
+    </div>
   );
 }
 
