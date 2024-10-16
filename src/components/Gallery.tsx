@@ -15,6 +15,12 @@ function Gallery() {
       cover: "/games/StickPin/Cover.jpg",
       url: "/games/StickPin",
     },
+    {
+      id: 3,
+      title: "趣味套牛",
+      cover: "/games/CatchCow/Cover.jpg",
+      url: "/games/CatchCow",
+    },
     // 更多游戏...
   ];
 
