@@ -5,18 +5,24 @@ function Gallery() {
   const games = [
     {
       id: 1,
+      title: "2048",
+      cover: "/games/2048/Cover.jpg",
+      url: "/games/2048",
+    },
+    {
+      id: 2,
       title: "飞机大战",
       cover: "/games/PlaneFight/Cover.jpg",
       url: "/games/PlaneFight",
     },
     {
-      id: 2,
+      id: 3,
       title: "见缝插针",
       cover: "/games/StickPin/Cover.jpg",
       url: "/games/StickPin",
     },
     {
-      id: 3,
+      id: 4,
       title: "趣味套牛",
       cover: "/games/CatchCow/Cover.jpg",
       url: "/games/CatchCow",
