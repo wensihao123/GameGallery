@@ -11,7 +11,7 @@ function Gallery() {
     },
     {
       id: 2,
-      title: "PinBall",
+      title: "2D弹球",
       cover: "/games/PinBall/Cover.jpg",
       url: "/games/PinBall",
     },
