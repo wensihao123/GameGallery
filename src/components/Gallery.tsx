@@ -58,8 +58,6 @@ function Gallery() {
       } else {
         setUsername("Cannot get username");
       }
-      tg.MainButton.setText("继续");
-      tg.MainButton.show();
     } else {
       setUsername("Telegram not found");
     }
