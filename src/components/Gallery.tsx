@@ -68,8 +68,8 @@ function Gallery() {
     <div className="gallery">
       <header className="App-header">
         <h1 className="gallery-title">小游戏集合</h1>
-        <p>{username}</p>
       </header>
+      <h3>{username}</h3>
       <div className="game-list">
         {games.map((game, index) => (
           <GameCard
