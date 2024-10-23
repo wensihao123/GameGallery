@@ -47,6 +47,7 @@ function Gallery() {
   const [username, setUsername] = useState<string | null>(null);
 
   useEffect(() => {
+    console.log((window as any).Telegram)
     if ((window as any).Telegram?.WebApp) {
       const tg = (window as any).Telegram.WebApp;
       console.log(tg);
